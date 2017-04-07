@@ -1,3 +1,4 @@
+ <!--  Dynamic sidebar -->
 <div class="sidebar">
 	<ul class="list_unstyled">
 	<?php
@@ -5,7 +6,9 @@
 			dynamic_sidebar('blog-sidebar');
 
 		}
+		
 	
 	?>
 	</ul>
 </div>
+

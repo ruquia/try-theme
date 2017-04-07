@@ -34,17 +34,6 @@ function try_sidebars(){
 		'before_title'		=> '<h2>',
 		'after_title'		=> '</h2>',
 		));
-	// another sidebar
-	//register sidebar
-	register_sidebar(array(
-		'name'				=> 'Info Sidebar',
-		'id'				=> 'info-sidebar',
-		'before_widget'		=> '<div class="widget">',
-		'after_widget'		=> '</div>',
-		'before_title'		=> '<h2>',
-		'after_title'		=> '</h2>',
-		));
-
 
 }
 add_action('widgets_init','try_sidebars');

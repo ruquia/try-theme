@@ -1,12 +1,12 @@
+<?php get_header(); ?>
+ <!--  with click on serach button this search page pop up-->
 
-<?php get_header(); 
-
-?>
+<?php get_search_form(); ?>
 
     <div class="container">
 
       <div class="row">
-       
+      
         
         <div class="col-md-8 col-md-offset-1">
           <?php
@@ -74,8 +74,6 @@
         </div>
 
        <div class="col-md-3">
-              <?php get_sidebar();?>
-
           
         
        </div>
@@ -87,3 +85,23 @@
 <?php
 get_footer();
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

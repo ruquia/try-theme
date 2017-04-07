@@ -1,4 +1,3 @@
-
  <article class="post">
  	<div class="container">
  		<div class="row">

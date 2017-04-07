@@ -15,3 +15,21 @@ function try_excerpt_more($more){
 }
 add_filter('excerpt_more', 'try_excerpt_more');
 
+function try_body_classes($classes){
+
+	$id = get_queried_object_id();
+	if(has_post_thumbnail($id)){
+		$classes[] = 'has-featured-image';
+
+	}else{
+		
+		$classes[] = 'no-featured-image';
+
+
+	}
+	return $classes;
+
+
+}
+add_filter('body_class','try_body_classes');
+

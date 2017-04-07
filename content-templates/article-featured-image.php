@@ -1,4 +1,3 @@
-
  <article class="post with-featured-image">
 	<div class="featured-image" style=" background-image: url(<?php the_post_thumbnail_url('page-featured-image');?>);"></div>
 	 	<div class="container">

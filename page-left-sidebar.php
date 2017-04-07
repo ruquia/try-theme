@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Right Sidebar
+Template Name: Left Sidebar
 */
 
 	get_header();
@@ -11,10 +11,12 @@ Template Name: Right Sidebar
 <div class="container">
 	<div class="row">
 
-		<div class="col-md-1">
+		<div class="col-md-3">
+			<?php
+				get_sidebar();
+			?>
 		</div>
-
-		<div class="col-md-8">
+		<div class="col-md-8 col-md-offset-1">
 
 			<?php
 				if(have_posts()){
@@ -29,11 +31,7 @@ Template Name: Right Sidebar
 
 		</div>
 
-		<div class="col-md-3">
-			<?php
-				get_sidebar();
-			?>
-		</div>
+	
 
 <?php
 

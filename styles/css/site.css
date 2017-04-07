@@ -1,6 +1,11 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 body {
   font-family: 'Raleway', 'sans-serif', 'Reboto', 'Arial','sans-serif'; }
+  body h2 {
+    font-size: 1.5em; }
+  body h1 {
+    font-size: 2.5rem; }
 
 .top-wrapper {
   background-color: #ddd; }
@@ -9,7 +14,13 @@ body {
   padding-top: 38px; }
 
 .navbar-toggler {
-  padding-top: 46px; }
+  padding-top: 46 px; }
+
+.single.no-featured-image article {
+  margin-top: 3em; }
+
+article.with-featured-image header .the_title {
+  margin-top: 0.75em; }
 
 article header {
   margin-bottom: 1em; }
@@ -25,6 +36,9 @@ article.with-featured-image .featured-image {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 350px; }
+
+.blog-post {
+  border-bottom: 1px solid rgba(60, 40, 5, 0.91); }
 
 .sidebar .widget {
   border-bottom: 1px solid #444;
@@ -71,3 +85,31 @@ a {
 
 .navbar:hover {
   color: rgba(60, 40, 5, 0.91); }
+
+.contact h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0.75em; }
+
+#contactForm ul {
+  list-style-type: none; }
+
+.main-content {
+  margin-top: 3em; }
+
+textarea {
+  height: 15em; }
+
+.archive {
+  margin-top: 3em; }
+
+.contact {
+  border: 1px solid black;
+  margin-left: 0.5em;
+  padding: 1em; }
+
+.contact-title h1 {
+  margin: 1em; }
+
+.search {
+  margin-top: 3em; }

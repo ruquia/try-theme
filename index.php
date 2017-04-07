@@ -4,14 +4,13 @@
 ?>
 
 
+
     <div class="container">
 
       <div class="row">
-        <div class="col-md-1">
-          
-        </div>
+      
         
-        <div class="col-md-8">
+        <div class="col-md-8 col-md-offset-1">
           <?php
             if(have_posts()){
               while(have_posts()){
